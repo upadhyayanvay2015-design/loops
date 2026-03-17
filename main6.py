@@ -1,0 +1,20 @@
+lst=["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+
+print(len(lst))
+print("First element:", lst[0])
+lst.remove("Cherry")
+print(lst)
+lst.append("watermelon")
+print(lst)
+lst.sort()
+print(lst)
+lst.pop()
+print(lst)
+lst.reverse()
+print(lst)
+print("Multiplication of list:", lst*2)
+print(lst)
+lst=lst[:2]
+print(lst)
+lst.clear()
+print(lst)
